@@ -104,4 +104,56 @@ button:hover {
   .book-card {
     padding: 15px;
   }
+
+}
+.back-home {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #ffffff; /* أبيض فاتح */
+  color: #444; /* رمادي غامق شوي عشان يبان النص */
+  padding: 12px 20px;
+  margin: 15px;
+  border: 2px solid #ddd; /* إطار فاتح */
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* ظل خفيف */
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background-color: #f9f9f9; /* أفتح عند المرور */
+  color: #222;
+  transform: scale(1.05);
+}
+
+
+@media (max-width: 768px) {
+  .landing h1 {
+    font-size: 1.8rem;
+  }
+
+  .landing p {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .landing {
+    padding: 30px 10px;
+  }
+
+  .landing h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    width: 90%;
+    font-size: 0.95rem;
+  }
 }
